@@ -7,7 +7,7 @@
 
 .menu-bar
 {
-    background-color: rgba(173, 176, 173, 0.647);
+    background-color:#0000fc;
     text-align: center;
     padding: 20px;
 }
@@ -23,7 +23,7 @@
       float: right;
       margin-right: 40px;
     list-style: none;
-    color: #000000;
+    color: #fff;
      
 }
 .menu-bar ul li
@@ -37,7 +37,7 @@
 .menu-bar ul li a
 {
     text-decoration: none;
-    color: #050404;
+    color: #ffff;
     padding: 2px;
     transition: color 0.3s;
 }
@@ -79,38 +79,18 @@
     color: rgb(0, 77, 144);
 }
 
-.lens{
-
- 
-
-    margin-top: 10px;
-    
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    background-color:white;
-    padding: 11spx;
-}
 
 .lens img{
-    width: 18%;
-    border: 2px solid white;
+    width: fit-content;
     border-radius: 5px;
 }
 
 .main img{
     width: 100%;
 }
-
-.lens img:hover{
-    background-color: white;
-    transform: translateY(-10px);
+.fa-solid fa-phone-volume{
+    color: #fff;
 }
-
-
-
-
-
 
 .main img{
     width: 500px;
@@ -136,9 +116,7 @@
 
 
 .footer{
-    
-    background-color: rgba(173, 176, 173, 0.647);
-     
+    background-color: #1500fc;
    /* background-position: center;
     background-attachment: fixed;*/
      
@@ -155,7 +133,7 @@
 }
 
 .footer .box-container .box h2{
-    color: black;
+    color: #fff;
     font-size: 1.5rem;
     padding-bottom: 1rem;
     margin-top: 40px;
@@ -164,7 +142,7 @@
 
 .footer .box-container .box a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 1rem;
     padding-bottom: 1rem;
     display: block;
@@ -178,7 +156,7 @@
 }
 
 .footer .box-container .box a:hover i{
-    color: blue;
+    color: rgb(2, 2, 15);
     padding-right: 2rem;
 }
 
@@ -186,9 +164,9 @@
     text-align: center;
     padding-top: 1rem;
     margin-top: 1rem;
-    border-top: .1rem solid black;
+    border-top: .1rem solid rgb(13, 50, 234);
     font-size: 1rem;
-    color: black;
+    color: rgb(255, 255, 255);
      
 }
 
