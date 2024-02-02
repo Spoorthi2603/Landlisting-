@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #dfe9f5;
+}
+
+.container {
+  display: flex;
+}
+
+nav {
+  position: fixed; /* Change to fixed */
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background: #fff;
+  width: 280px;
+  overflow-y: auto;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  z-index: 999; /* Ensure it's above other content */
+}
+
+.logo {
+  text-align: center;
+  display: flex;
+  margin: 10px 0 0 10px;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.logo span {
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+nav a {
+  position: relative;
+  color: rgb(85, 83, 83);
+  font-size: 14px;
+  display: table;
+  width: 280px;
+  padding: 10px;
+}
+
+nav .fas {
+  width: 70px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.nav-item {
+  top: 12px;
+  margin-left: 10px;
+}
+
+nav a:hover {
+  background: #eee;
+}
+
+.logout {
+  position: absolute;
+  bottom: 0;
+}
+
+/* Main Section */
+.main {
+  padding: 20px;
+  width: calc(100% - 280px); /* Adjust width to account for nav */
+  margin-left: 280px; /* Adjust for nav width */
+}
+
+/* Courses */
+.main-course {
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+.course-box {
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.course-box ul {
+  list-style: none;
+  display: flex;
+}
+
+.course-box ul li {
+  margin: 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+.course-box ul .active {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+.course-box .course {
+  display: flex;
+}
+
+.box {
+  width: 33%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background: rgb(235, 233, 233);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.box p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.box button {
+  background: #000;
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 10px;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.box button:hover {
+  background: rgba(0, 0, 0, 0.842);
+}
+
+.box i {
+  font-size: 7rem;
+  float: right;
+  margin: -20px 20px 20px 0;
+}
+
+.html {
+  color: rgb(25, 94, 54);
+}
+
+.css {
+  color: rgb(104, 179, 35);
+}
+
+.js {
+  color: rgb(28, 98, 179);
+}
+
+/* Adjustments for the Land Details section */
+.land-details {
+  width: 100%; /* Adjust width to match the My Deals box */
+  padding: 20px;
+  margin-top: 20px; /* Add margin for separation */
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.land-details h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.land-details label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.land-details input[type="text"] {
+  width: calc(100% - 20px); /* Adjust width as needed */
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.land-details input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.land-details input[type="submit"]:hover {
+  background-color: rgba(0, 0, 0, 0.842);
+}
